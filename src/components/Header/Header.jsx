@@ -26,8 +26,8 @@ console.log(user);
                 <Link to="/orders">Orders</Link>
                 <Link to="/inventory">Inventory</Link>
                 <Link to="/login">Login</Link>
-                <Link to="/signup">Sing Up</Link>
-                {user && <span>{user.email} <button className='text-white' onClick={handleLogout}>SignOUt</button></span>}
+                <Link  to="/signup">Sing Up</Link>
+                {user && <span className='text-white'><span className='text-white'>{user.email}</span> <button  onClick={handleLogout}>SignOUt</button></span>}
             </div>
         </nav>
     );
